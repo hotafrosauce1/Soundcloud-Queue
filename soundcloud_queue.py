@@ -138,9 +138,7 @@ def prompt_user():
         song = player.play_song()
         while song.is_playing():
             options = str(input('***********************\nEnter s to skip song\nEnter e to exit this program\nEnter a to add a song to the queue\nEnter v to display the song queue\n***********************\n')).lower()
-            if options == 'p':
-                song.stop()
-            elif options == 's':
+            if options == 's':
                 song.stop()
                 song = player.play_song()
             elif options == 'e':
