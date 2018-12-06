@@ -1,2 +1,2 @@
 # Soundcloud-Queue
-A python script that queues songs from your Soundcloud playlist to play on your computer.
+A python script that downloads songs from your Soundcloud playlist and plays them on your computer off of a queue.
